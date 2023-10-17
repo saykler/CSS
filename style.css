@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.div1{
+    position: absolute;
+    background-color: rgba(23, 125, 220, 0.861);
+    width: 300px;
+    height: 300px;
+    top: 20px;
+    left: 20px;
+}
+.div2{
+    position: absolute;
+    background-color: rgba(16, 200, 148, 0.861);
+    width: 300px;
+    height: 300px;
+    top:20px ;
+    left: 350px;
+}
+.div3{
+    background-color: rgba(236, 13, 13, 0.797);
+    height: 50px;
+    width: 100px;
+    color: white;
+    margin: 50px;
+    padding: 50px;
+
+}
+body{
+    background-image: url(/background.jpg);
+    background-color: skyblue;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form{
+    position: absolute;
+    background-color: white;
+    width: 400px;
+    height:300px ;
+    top: 10px;
+    left: 400px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px ;
+    padding-top: 30px;
+    text-align: center
+    margin-top: 40px;
+    opacity: 0.8;
+}
+main{
+    position: relative;
+}
+input{
+    margin: 10px 0px;
+    padding: 5px;
+    width: 100%;
+   
+}
+select{
+    margin: 10px 0px;
+    padding: 5px;
+    width: 100%;
+}
+button{
+    padding: 5px;
+    margin: 10px 0px;
+    background-color: rgb(23, 124, 218);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    width: 100%;
+}
+button:hover{
+    background-color: rgba(130, 40, 225, 0.886);
+}
+form{
+    width: 200px;
+    margin: auto;
+}
