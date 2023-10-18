@@ -7,6 +7,20 @@
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
+    <nav>
+        <h1 style="margin-left: 50px;">CSS Day3</h1>
+        <ul>
+            <li>
+                <a href="/index.html">Home</a>
+            </li>
+            <li>
+               <a href="/aboutus.html">About Us</a> 
+            </li>
+            <li>
+                <a href="/contactus.html">Countact Me</a>
+            </li>
+        </ul>
+    </nav>
     <main>
         <!-- <div class="div1">
 
@@ -17,11 +31,12 @@
         <div class="div3">
         Testing
        </div> -->
+             
        <div class="form">
          <form>
-            <h1>Sign Up</h1>
-            <input type="text" id="name" placeholder="Enter your name"> 
-            <br>
+        <h1 align="center" style="padding-bottom: 15px;">Sign Up</h1>
+          <input type="text" id="name" placeholder="Enter your name"> 
+           <br>
             <input type="password" id="password" placeholder="Password"> 
             <br>
             <input type="tel" id="phone" placeholder="Phone no"> 
@@ -32,14 +47,15 @@
                 <option>Other</option>
             </select> <br>
             <button onclick='handleClick()'>Log In</button>
-
         </form>
       </div>
+      <vedio controls>
+        <source src="/thankyoulord.mp4" type="video/mp4"/>
+    </vedio>
     </main>
     <script>
-            const handleClick =()=>{
+        const handleClick =()=>{
                return alert("My name is Thiri");
-
             }
  </script>
 </body>
